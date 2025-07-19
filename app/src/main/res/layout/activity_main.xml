@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/materialTextView"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/bMargin"
@@ -20,14 +20,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/opGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/bMargin"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialTextView">
+        app:layout_constraintTop_toBottomOf="@+id/title">
 
 
         <ImageView
@@ -37,8 +37,10 @@
             />
 
         <RadioButton
+            android:id="@+id/op1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             />
 
         <ImageView
@@ -47,6 +49,7 @@
             app:srcCompat="@drawable/circle" />
 
         <RadioButton
+            android:id="@+id/op2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -54,19 +57,20 @@
     </RadioGroup>
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/turn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:text="@string/goFirst"
-        app:layout_constraintStart_toStartOf="@+id/radioGroup"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintStart_toStartOf="@+id/opGroup"
+        app:layout_constraintTop_toBottomOf="@+id/opGroup" />
 
     <Button
+        android:id="@+id/play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/play"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/radioGroup"
-        app:layout_constraintTop_toTopOf="@+id/checkBox2" />
+        app:layout_constraintStart_toStartOf="@+id/opGroup"
+        app:layout_constraintTop_toTopOf="@+id/turn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
