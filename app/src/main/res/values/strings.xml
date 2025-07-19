@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="select">Select your side</string>
+    <string name="goFirst">1st turn</string>
+    <string name="play">PLAY</string>
+</resources>
