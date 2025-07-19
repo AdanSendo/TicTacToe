@@ -9,6 +9,7 @@
         android:id="@+id/imageButton10"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageButton9"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
         app:srcCompat="@drawable/square" />
@@ -17,6 +18,7 @@
         android:id="@+id/imageButton9"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageButton8"
         app:layout_constraintTop_toTopOf="@+id/imageButton8"
         app:srcCompat="@drawable/square" />
@@ -25,6 +27,7 @@
         android:id="@+id/imageButton8"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="@+id/imageButton5"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
         app:srcCompat="@drawable/square" />
@@ -33,6 +36,7 @@
         android:id="@+id/imageButton7"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="@+id/imageButton4"
         app:layout_constraintStart_toEndOf="@+id/imageButton6"
         app:layout_constraintTop_toTopOf="@+id/imageButton6"
@@ -42,6 +46,7 @@
         android:id="@+id/imageButton6"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toTopOf="@+id/imageButton5"
         app:srcCompat="@drawable/square" />
@@ -50,6 +55,7 @@
         android:id="@+id/imageButton5"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@+id/imageButton2"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
@@ -59,6 +65,7 @@
         android:id="@+id/imageButton4"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toTopOf="@+id/imageButton3"
         app:srcCompat="@drawable/square" />
@@ -67,6 +74,7 @@
         android:id="@+id/imageButton3"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="@+id/imageButton2"
         app:srcCompat="@drawable/square" />
@@ -93,6 +101,7 @@
         android:id="@+id/imageButton2"
         android:layout_width="@dimen/dim_block"
         android:layout_height="@dimen/dim_block"
+        android:scaleType="centerCrop"
         android:layout_marginTop="@dimen/bMargin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.30"
