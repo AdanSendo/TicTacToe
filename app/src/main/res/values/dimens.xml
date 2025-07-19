@@ -2,4 +2,5 @@
 <resources>
     <dimen name="dim_block">64dp</dimen>
     <dimen name="bMargin">80dp</dimen>
+    <dimen name="mMargin">40dp</dimen>
 </resources>
